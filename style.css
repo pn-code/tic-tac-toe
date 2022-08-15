@@ -11,8 +11,24 @@ body{
     grid-template: 100px 100px 100px / 100px 100px 100px
 }
 
+#display{
+    display:flex;
+    gap: 6px;
+}
+
+#display-player{
+    font-weight: bold;
+    color: red;
+}
+
 .square{
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(89, 89, 201);
     border: 1px solid;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
     
 }
