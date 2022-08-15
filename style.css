@@ -1,8 +1,18 @@
-#gameboard{
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
 
+#gameboard{
+    display: grid;
+    grid-template: 100px 100px 100px / 100px 100px 100px
 }
 
 .square{
     background-color: blue;
     border: 1px solid;
+    
 }
