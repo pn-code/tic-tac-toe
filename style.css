@@ -1,34 +1,22 @@
-body{
+#grid {
+    display: grid;
+    grid-template: 100px 100px 100px / 100px 100px 100px;
+    justify-content: center;
+}
+
+#display-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    padding-bottom: 18px;
 }
 
-#gameboard{
-    display: grid;
-    grid-template: 100px 100px 100px / 100px 100px 100px
-}
-
-#display{
-    display:flex;
-    gap: 6px;
-}
-
-#display-player{
-    font-weight: bold;
-    color: red;
-}
-
-.square{
+.box{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(89, 89, 201);
     border: 1px solid;
-    color: white;
+    font-size: 42px;
     font-weight: bold;
-    font-size: 36px;
-    
 }
