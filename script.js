@@ -66,7 +66,6 @@ let winningPlayer = "";
 
 const grid = document.querySelector("#grid")
 const display = document.querySelector("#display-text")
-display.innerText = "Player 1's Turn"
 
 
 //functions for handleClick
