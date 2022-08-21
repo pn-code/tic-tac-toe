@@ -178,10 +178,10 @@ function checkTie(){
 
 function changePlayer(){
     if (currentPlayer === Player1 && winningPlayer === ""){
-        display.innerText = "Player 1's Turn";
+        display.innerText = "Player 2's Turn";
         currentPlayer = Player2;
     } else if (currentPlayer === Player2  && winningPlayer === ""){
-        display.innerText = "Player 2's Turn";
+        display.innerText = "Player 1's Turn";
         currentPlayer = Player1;
     }
 }
