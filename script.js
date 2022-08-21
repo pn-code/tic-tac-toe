@@ -60,6 +60,7 @@ function player(playerName, playSymbol) {
 const Player1 = player("Player 1", "X");
 const Player2 = player("Player 2", "O");
 
+
 //loose variables I still need to tuck in
 let currentPlayer = Player1;
 let winningPlayer = "";
@@ -205,4 +206,3 @@ function endGame(){
     }
 
 }
-
